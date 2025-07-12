@@ -9,4 +9,4 @@ dnspython
 Flask
 gunicorn
 aiohttp
-pip install -r requirements.txt
+
