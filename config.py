@@ -12,12 +12,6 @@ ADMIN = int(os.environ.get("ADMIN", "7059303745"))
 # Premium 4GB Renaming Client Config
 STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
-
-# Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-
-
 # Mongo DB Database Config
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://anyaa4078:pfuVoEO96lySDXJ9@renamer.bjs86wb.mongodb.net/?retryWrites=true&w=majority&appName=Renamer")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "renamer")
